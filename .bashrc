@@ -42,4 +42,3 @@ alias ttyper="~/.cargo/bin/ttyper"
 alias ..="cd .."
 alias ...="cd ../.."
 
-. "$HOME/.cargo/env"
