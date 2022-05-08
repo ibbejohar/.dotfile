@@ -61,4 +61,8 @@ sudo mkdir -p /media/sda1
 ### Additional packages ###
 git clone https://github.com/CoolnsX/dra-cla && cd dra-cla
 sudo cp dra-cla /usr/local/bin/dra-cla
+cd ..
 rm -rf dra-cla
+
+### Enable Services ###
+sudo systemctl enable ly.service
