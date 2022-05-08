@@ -30,6 +30,7 @@ ntfs-3g
 neofetch
 nemo
 pulsemixer
+aria2
 "
 
 yay_packages=" 
@@ -56,3 +57,8 @@ cp ~/Dotfiles/.vimrc ~/
 
 ### Hard Drives ###
 sudo mkdir -p /media/sda1
+
+### Additional packages ###
+git clone https://github.com/CoolnsX/dra-cla && cd dra-cla
+sudo cp dra-cla /usr/local/bin/dra-cla
+rm -rf dra-cla
