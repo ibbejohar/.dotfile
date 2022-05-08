@@ -14,7 +14,7 @@ set so=10 "Cursor will be within set value until start scrolling
 set tabstop=4
 set incsearch
 set showcmd
-set nowrap "extend the line infintly without faking a new line
+"set nowrap "extend the line infintly without faking a new line
 set history=30
 set wildmenu
 
