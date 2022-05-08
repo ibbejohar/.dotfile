@@ -1,5 +1,13 @@
 #!/bin/bash
 
+### Install AUR helper ###
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si --noconfirm
+cd ..
+rm -rf yay
+
+### Installing packages ###
 program="
 firefox
 rofi
@@ -35,6 +43,8 @@ sudo pacman -S $program --noconfirm
 
 yay -S $yay_packages --noconfirm
 
+### Installing config files ###
+
 cp -r ~/Dotfiles/.config/alacritty ~/.config
 cp -r ~/Dotfiles/.config/rofi ~/.config
 cp -r ~/Dotfiles/.config/spectrwm ~/.config
@@ -42,3 +52,7 @@ cp -r ~/Dotfiles/.config/neofetch ~/.config
 cp -r ~/Dotfiles/.vim ~/
 cp ~/Dotfiles/.bashrc ~/
 cp ~/Dotfiles/.vimrc ~/
+
+
+### Hard Drives ###
+sudo mkdir -p /media/sda1
