@@ -24,11 +24,11 @@ alias v="vim"
 
 alias shutdown="shutdown now"
 alias mangadownload="mangodl -D"
+alias ani-cli="ani-cli -q best -d"
+alias dra-cla="dra-cla -q best -d"
 
 alias df="df -h"
 alias e="exit"
-
-alias shut="~/Documents/shut"
 
 alias manga="cd /media/sda1/manga"
 alias lightnovels="cd /media/sda1/lightnovels"
