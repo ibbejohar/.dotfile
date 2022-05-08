@@ -38,6 +38,7 @@ yay -S $yay_packages --noconfirm
 cp -r ~/Dotfiles/.config/alacritty ~/.config
 cp -r ~/Dotfiles/.config/rofi ~/.config
 cp -r ~/Dotfiles/.config/spectrwm ~/.config
+cp -r ~/Dotfiles/.config/neofetch ~/.config
 cp -r ~/Dotfiles/.vim ~/
 cp ~/Dotfiles/.bashrc ~/
 cp ~/Dotfiles/.vimrc ~/
