@@ -21,13 +21,23 @@ fuse
 ntfs-3g
 neofetch
 nemo
+pulsemixer
 "
 
 yay_packages=" 
 devour
 ani-cli
 mangodl
+ly
+nerd-fonts-complete
 "
 sudo pacman -S $program --noconfirm
 
 yay -S $yay_packages --noconfirm
+
+cp -r ~/Dotfiles/.config/alacritty ~/.config
+cp -r ~/Dotfiles/.config/rofi ~/.config
+cp -r ~/Dotfiles/.config/spectrwm ~/.config
+cp -r ~/Dotfiles/.vim ~/
+cp ~/Dotfiles/.bashrc ~/
+cp ~/Dotfiles/.vimrc ~/
