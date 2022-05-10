@@ -34,11 +34,10 @@ alias manga="cd /media/sda1/manga"
 alias lightnovels="cd /media/sda1/lightnovels"
 alias tv-show="cd /media/sda1/tv-show"
 alias film="cd /media/sda1/film"
+alias code="cd /media/sda1/code"
 
 alias sda1="sudo mount /dev/sda1 /media/sda1"
-alias bc="bc -l"
 
-alias ttyper="~/.cargo/bin/ttyper"
 alias ..="cd .."
 alias ...="cd ../.."
 
