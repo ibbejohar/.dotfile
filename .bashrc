@@ -12,6 +12,7 @@ export PS1='\[\e[0;1;31m\][\[\e[0;1;38;5;37m\]\u\[\e[0;1;31m\]] \[\e[0;38;5;73m\
 #########################
 
 alias ls="exa"
+alias ll="exa -al"
 
 alias mpv="devour mpv"
 alias sxiv="devour sxiv"
