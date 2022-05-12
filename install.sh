@@ -31,6 +31,7 @@ neofetch
 nemo
 pulsemixer
 aria2
+nodejs
 "
 
 yay_packages=" 
