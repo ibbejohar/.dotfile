@@ -34,6 +34,7 @@ alias e="exit"
 alias manga="cd /media/sda1/manga"
 alias lightnovels="cd /media/sda1/lightnovels"
 alias tv-show="cd /media/sda1/tv-show"
+alias anime="cd /media/sda1/tv-show/anime"
 alias film="cd /media/sda1/film"
 alias code="cd /media/sda1/code"
 
