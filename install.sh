@@ -46,13 +46,13 @@ yay -S $yay_packages --noconfirm
 
 ### Installing config files ###
 
-cp -r ~/Dotfiles/.config/alacritty ~/.config
-cp -r ~/Dotfiles/.config/rofi ~/.config
-cp -r ~/Dotfiles/.config/spectrwm ~/.config
-cp -r ~/Dotfiles/.config/neofetch ~/.config
-cp -r ~/Dotfiles/.vim ~/
-cp ~/Dotfiles/.bashrc ~/
-cp ~/Dotfiles/.vimrc ~/
+cp -r ~/Dotfiles/config/alacritty ~/.config
+cp -r ~/Dotfiles/config/rofi ~/.config
+cp -r ~/Dotfiles/config/spectrwm ~/.config
+cp -r ~/Dotfiles/config/neofetch ~/.config
+cp -r ~/Dotfiles/vim ~/.vim
+cp ~/Dotfiles/bashrc ~/.bashrc
+cp ~/Dotfiles/vimrc ~/.vimrc
 
 
 ### Hard Drives ###
