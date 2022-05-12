@@ -46,7 +46,6 @@ sudo pacman -S $program --noconfirm
 yay -S $yay_packages --noconfirm
 
 ### Installing config files ###
-
 cp -r ~/Dotfiles/config/alacritty ~/.config
 cp -r ~/Dotfiles/config/rofi ~/.config
 cp -r ~/Dotfiles/config/spectrwm ~/.config
@@ -56,6 +55,10 @@ cp -r ~/Dotfiles/wallpaper ~/Pictures
 cp ~/Dotfiles/bashrc ~/.bashrc
 cp ~/Dotfiles/vimrc ~/.vimrc
 cp ~/Dotfiles/config/fehbg ~/.fehbg
+
+### Hardware disable ###
+sudo touch /etc/modprobe.d/nobeep.conf
+sudo echo blacklist pcspkr >> /etc/modprobe.d/nobeep.conf
 
 ### Hard Drives ###
 sudo mkdir -p /media/sda1
