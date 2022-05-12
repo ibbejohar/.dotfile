@@ -52,6 +52,7 @@ cp -r ~/Dotfiles/config/spectrwm ~/.config
 cp -r ~/Dotfiles/config/neofetch ~/.config
 cp -r ~/Dotfiles/vim ~/.vim
 cp -r ~/Dotfiles/wallpaper ~/Pictures
+cp -r ~/Dotfiles/firefox/7sv3hjlj.fool ~/.mozilla/firefox
 cp ~/Dotfiles/bashrc ~/.bashrc
 cp ~/Dotfiles/vimrc ~/.vimrc
 cp ~/Dotfiles/config/fehbg ~/.fehbg
