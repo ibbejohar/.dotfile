@@ -32,6 +32,7 @@ nemo
 pulsemixer
 aria2
 nodejs
+unclutter
 "
 
 yay_packages=" 
