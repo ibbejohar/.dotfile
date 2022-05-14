@@ -11,7 +11,6 @@ rm -rf yay
 program="
 firefox
 rofi
-spectrwm
 alacritty
 slock
 bitwarden
@@ -47,16 +46,14 @@ sudo pacman -S $program --noconfirm
 yay -S $yay_packages --noconfirm
 
 ### Installing config files ###
-cp -r ~/Dotfiles/config/alacritty ~/.config
-cp -r ~/Dotfiles/config/rofi ~/.config
-cp -r ~/Dotfiles/config/spectrwm ~/.config
-cp -r ~/Dotfiles/config/neofetch ~/.config
-cp -r ~/Dotfiles/vim ~/.vim
+cp -r ~/Dotfiles/.config/alacritty ~/.config
+cp -r ~/Dotfiles/.config/rofi ~/.config
+cp -r ~/Dotfiles/.config/neofetch ~/.config
+cp -r ~/Dotfiles/.vim ~/.vim
 cp -r ~/Dotfiles/wallpaper ~/Pictures
-cp -r ~/Dotfiles/firefox/7sv3hjlj.fool ~/.mozilla/firefox
-cp ~/Dotfiles/bashrc ~/.bashrc
-cp ~/Dotfiles/vimrc ~/.vimrc
-cp ~/Dotfiles/config/fehbg ~/.fehbg
+cp ~/Dotfiles/.bashrc ~/.bashrc
+cp ~/Dotfiles/.vimrc ~/.vimrc
+cp ~/Dotfiles/.config/fehbg ~/.fehbg
 
 ### Hardware disable ###
 sudo touch /etc/modprobe.d/nobeep.conf
