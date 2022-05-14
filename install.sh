@@ -1,72 +1,31 @@
 #!/bin/bash
 
-### Install AUR helper ###
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si --noconfirm
-cd ..
-rm -rf yay
-
 ### Installing packages ###
-program="
-firefox
-rofi
-alacritty
-slock
-bitwarden
-mpv
-sxiv
-feh
-zathura
-zathura-pdf-mupdf
-wget
-curl
-unzip
-unrar
-zip
-fuse
-ntfs-3g
-neofetch
-nemo
-pulsemixer
-aria2
-nodejs
-unclutter
-"
+echo "Installing packages..."
+./packages.sh
+echo "Packages are succesfully installed"
+sleep 2s
 
-yay_packages=" 
-devour
-ani-cli
-mangodl
-ly
-nerd-fonts-complete
-"
-sudo pacman -S $program --noconfirm
+### Installing dotfiles ###
+echo "Installing dotfiles..."
+./config.sh
+echo "Dotfiles are succesfully installed"
+sleep 2s
 
-yay -S $yay_packages --noconfirm
+### Hard drive ###
+echo "Creating a mountpoint for hard drives..."
+./hard_drives.sh 
+echo "Mountpoint are succesfully created"
+sleep 2s
 
-### Installing config files ###
-cp -r ~/Dotfiles/.config/alacritty ~/.config
-cp -r ~/Dotfiles/.config/rofi ~/.config
-cp -r ~/Dotfiles/.config/neofetch ~/.config
-cp -r ~/Dotfiles/.vim ~/.vim
-cp -r ~/Dotfiles/wallpaper ~/Pictures
-cp ~/Dotfiles/.bashrc ~/.bashrc
-cp ~/Dotfiles/.vimrc ~/.vimrc
-cp ~/Dotfiles/.config/fehbg ~/.fehbg
+### Hardware_disable ###
+echo "Disabling some hardwares..."
+./hardware_disable.sh
+echo "Succesfully disabled"
+sleep 1s
 
-### Hardware disable ###
-sudo touch /etc/modprobe.d/nobeep.conf
-sudo echo blacklist pcspkr >> /etc/modprobe.d/nobeep.conf
+###########################
+echo "System is ready to be used"
+echo "Exiting the script..."
+sleep 3s
 
-### Hard Drives ###
-sudo mkdir -p /media/sda1
-
-### Additional packages ###
-git clone https://github.com/CoolnsX/dra-cla && cd dra-cla
-sudo cp dra-cla /usr/local/bin/dra-cla
-cd ..
-rm -rf dra-cla
-
-### Enable Services ###
-sudo systemctl enable ly.service
