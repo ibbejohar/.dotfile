@@ -1,13 +1,7 @@
 #!/bin/bash
 
 ### Installing config files ###
-cp -r ~/Dotfiles/.config/alacritty ~/.config
-cp -r ~/Dotfiles/.config/rofi ~/.config
-cp -r ~/Dotfiles/.config/neofetch ~/.config
+cp -rv config/*/ ~/.config
 
-cp -r ~/Dotfiles/.vim/ ~/.vim
-cp -r ~/Dotfiles/wallpaper ~/Pictures
+cp -rv home/.* ~/.config
 
-cp  ~/Dotfiles/.bashrc ~/.bashrc
-cp  ~/Dotfiles/.vimrc ~/.vimrc
-cp  ~/Dotfiles/.config/.fehbg ~/.fehbg
