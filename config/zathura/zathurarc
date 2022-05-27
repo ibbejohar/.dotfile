@@ -1,0 +1,10 @@
+map f toggle_fullscreen
+
+set font "JetBrains Mono Nerd Font 12"
+set default-bg "#0f0f17"
+set completion-bg "#171723"
+set inputbar-bg "#0f0f17"
+set statusbar-bg "#0f0f17"
+set notification-warning-bg "#314f57"
+set highlight-color "#314f57"
+set index-active-bg "#314f57"
