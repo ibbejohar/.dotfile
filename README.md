@@ -3,6 +3,7 @@
 * rofi
 * neofetch
 * alacritty
+* zathura
 
 ### To Do
 
