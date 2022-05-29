@@ -1,14 +1,10 @@
 #!/bin/bash
 
 ### Installing config files ###
-cp -rv config/*/ ~/.config
+ln -s $HOME/.dotfile/config/*/ $HOME/.config/
 
-cp -rv home/.vim ~/
-cp -v home/.vimrc ~/
-cp -v home/.bashrc ~/
-cp -v home/.fehbg ~/
-cp -v home/.Xresources ~/
-
-### Installing firefox profile  ###
-
-cp -rv firefox/mmwe8gig.archy ~/.mozilla/firefox/
+ln -s $HOME/.dotfile/home/.vim $HOME/
+ln -s $HOME/.dotfile/home/.vimrc $HOME/
+ln -s $HOME/.dotfile/home/.bashrc $HOME/
+ln -s $HOME/.dotfile/home/.fehbg $HOME/
+ln -s $HOME/.dotfile/home/.Xresources $HOME/
