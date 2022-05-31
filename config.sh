@@ -8,3 +8,5 @@ ln -s $HOME/.dotfile/home/.vimrc $HOME/
 ln -s $HOME/.dotfile/home/.bashrc $HOME/
 ln -s $HOME/.dotfile/home/.fehbg $HOME/
 ln -s $HOME/.dotfile/home/.Xresources $HOME/
+
+cp -r $HOME/.dotfile/wallpaper $HOME/Picture/
