@@ -9,5 +9,6 @@ ln -s $HOME/.dotfile/home/.bashrc $HOME/
 ln -s $HOME/.dotfile/home/.fehbg $HOME/
 ln -s $HOME/.dotfile/home/.Xresources $HOME/
 ln -s $HOME/.dotfile/home/.xinitrc $HOME/
+ln -s $HOME/.dotfile/home/.profile $HOME/
 
 cp -r $HOME/.dotfile/wallpaper $HOME/Pictures/
