@@ -7,7 +7,6 @@
 
 export PS1='\[\e[0;1;31m\][\[\e[0;1;38;5;37m\]\u\[\e[0;1;31m\]] \[\e[0;38;5;73m\]\W\[\e[0;1m\] ♠ \[\e[0m\]'
 
-priv=doas
 
 #########################
 #	  Alias		#
@@ -41,7 +40,7 @@ alias anime="cd /media/sda1/tv-show/anime"
 alias film="cd /media/sda1/film"
 alias code="cd /media/sda1/code"
 
-alias sda1="$priv mount /dev/sda1 /media/sda1"
+alias sda1="sudo mount /dev/sda1 /media/sda1"
 
 alias ..="cd .."
 alias ...="cd ../.."
