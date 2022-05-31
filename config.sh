@@ -10,4 +10,4 @@ ln -s $HOME/.dotfile/home/.fehbg $HOME/
 ln -s $HOME/.dotfile/home/.Xresources $HOME/
 ln -s $HOME/.dotfile/home/.xinitrc $HOME/
 
-cp -r $HOME/.dotfile/wallpaper $HOME/Picture/
+cp -r $HOME/.dotfile/wallpaper $HOME/Pictures/
