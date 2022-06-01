@@ -4,4 +4,8 @@ config/ncmpcpp/error.log
 home/.vim/autoload/goyo.vim
 home/.vim/autoload/coc.nvim
 home/.vim/autoload/vim-markdown
+config/nvim/autoload/goyo.vim
+config/nvim/autoload/coc.nvim
+config/nvim/autoload/vim-markdown
+
 
