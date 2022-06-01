@@ -4,7 +4,8 @@
 * neofetch
 * alacritty
 * zathura
+* neovim
+* ncmpcpp
+* mpd
 
-### To Do
 
-* simlink instead of cp in install.sh
