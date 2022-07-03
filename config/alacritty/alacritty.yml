@@ -76,8 +76,8 @@ font:
     style: Bold
   italic:
     family: JetBrains Mono Nerd Font  
-    style: MediumItalic 
+    style: Medium Italic 
   bold_italic:
     family: JetBrains Mono Nerd Font  
-    style: BoldItalic
+    style: Bold Italic
   size: 13

@@ -2,7 +2,7 @@ PATH=$PATH:/home/$USER/.local/bin
 
 export TERMINAL=alacritty
 export BROWSER=firefox
-export EDITOR=vim
+export EDITOR=nvim
 
 # xdg directories
 export XDG_CONFIG_HOME="$HOME/.config"
