@@ -23,7 +23,7 @@ alias pdf="devour zathura"
 alias c="clear"
 alias cal="cal -m -w"
 
-alias v="vim"
+alias vim="nvim"
 
 alias shutdown="shutdown now"
 alias mangadownload="mangodl -D"
