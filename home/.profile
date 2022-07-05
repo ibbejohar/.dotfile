@@ -25,3 +25,4 @@ export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 # wine
 export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default/"
 
+. "$HOME/.cargo/env"

@@ -46,5 +46,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 
 alias yt-audio="yt-dlp -x --audio-format mp3 --audio-quality 0"
+alias vconfig="nvim .config/nvim"
 
 ###################
+. "$HOME/.cargo/env"

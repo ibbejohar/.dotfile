@@ -7,5 +7,4 @@ home/.vim/autoload/vim-markdown
 config/nvim/autoload/goyo.vim
 config/nvim/autoload/coc.nvim
 config/nvim/autoload/vim-markdown
-
-
+config/mpv/watch_later

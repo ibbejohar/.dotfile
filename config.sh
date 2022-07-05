@@ -1,9 +1,6 @@
 #!/bin/bash
 
 ### Installing config files ###
-cd config
-git clone https:github.com/ibbejohar/nvim.git
-cd ..
 ln -s $HOME/.dotfile/config/*/ $HOME/.config/
 
 ln -s $HOME/.dotfile/home/.bashrc $HOME/
