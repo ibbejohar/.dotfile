@@ -1,4 +1,4 @@
-PATH=$PATH:$HOME/.local/bin:$HOME/.cargo/bin
+PATH=$PATH:$HOME/.local/bin:$HOME/.share/cargo/bin
 
 export TERMINAL=alacritty
 export BROWSER=firefox
