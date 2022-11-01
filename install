@@ -12,8 +12,8 @@ ln -s $home_dotfile/.* $HOME/
 ln -s $config_dotfile/* $HOME/.config
 
 # Wallpaper
-ln -s $wallpaper $HOME/Picture/
+ln -s $wallpaper_dotfile $HOME/Pictures/
 
 # Firefox
 rm -rf $HOME/.mozilla/firefox
-ln -s $firefox_dotfile
+ln -s $firefox_dotfile $HOME/.mozilla/
