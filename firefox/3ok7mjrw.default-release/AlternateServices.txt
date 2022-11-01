@@ -1,4 +1,0 @@
-https:www.google.com:443:.:^firstPartyDomain=google-b-d.search.suggestions.mozilla:3	0	19297	https:www.google.com:443:www.google.com:443::n:1669893933:h3:y:1667301907:n:^firstPartyDomain=google-b-d.search.suggestions.mozilla:|n:y:
-https:firefox-settings-attachments.cdn.mozilla.net:443:.::3	0	19297	https:firefox-settings-attachments.cdn.mozilla.net:443:firefox-settings-attachments.cdn.mozilla.net:443::n:1669893932:h3:y:1667301931:n::|n:y:
-https:firefox.settings.services.mozilla.com:443:.::3	0	19297	https:firefox.settings.services.mozilla.com:443:firefox.settings.services.mozilla.com:443::n:1669893932:h3:y:1667301907:n::|n:y:
-https:tracking-protection.cdn.mozilla.net:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	0	19297	https:tracking-protection.cdn.mozilla.net:443:tracking-protection.cdn.mozilla.net:443::n:1669893935:h3:y:1667301907:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:

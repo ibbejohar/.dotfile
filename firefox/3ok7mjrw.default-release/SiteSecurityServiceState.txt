@@ -1,7 +1,0 @@
-www.google.com^firstPartyDomain=google-b-d.search.suggestions.mozilla:HSTS	0	19297	1698837933896,1,0
-incoming.telemetry.mozilla.org:HSTS	0	19297	1698837936833,1,0
-contile.services.mozilla.com:HSTS	0	19297	1698837932218,1,0
-location.services.mozilla.com:HSTS	0	19297	1698837908526,1,1
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	19297	1698837932769,1,1
-www.mozilla.org^partitionKey=%28http%2Cmozilla.org%29:HSTS	0	19297	1683026708407,1,1
-firefox.settings.services.mozilla.com:HSTS	0	19297	1698837932431,1,0
