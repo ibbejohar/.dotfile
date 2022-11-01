@@ -1,0 +1,19 @@
+#!/bin/bash
+
+home_dotfile=$HOME/.dotfile/home
+config_dotfile=$HOME/.dotfile/config
+wallpaper_dotfile=$HOME/.dotfile/wallpaper
+firefox_dotfile=$HOME/.dotfile/firefox
+
+# Home directory
+ln -s $home_dotfile/.* $HOME/
+
+# .config directory
+ln -s $config_dotfile/* $HOME/.config
+
+# Wallpaper
+ln -s $wallpaper $HOME/Picture/
+
+# Firefox
+rm -rf $HOME/.mozilla/firefox
+ln -s $firefox_dotfile
