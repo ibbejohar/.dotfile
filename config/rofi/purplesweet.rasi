@@ -18,7 +18,7 @@
 
 #listview {
     fixed-height: 		false;
-    dynamic: 			true;
+    dynamic: 			false;
     lines: 5;
     spacing: 0px;
     padding: 0 0 0;

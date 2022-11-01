@@ -4,7 +4,7 @@ mpd_host = localhost
 
 mpd_port = 6600
 
-mpd_music_dir = /media/sda1/music
+mpd_music_dir = /media/sdc1/music
 
 lyrics_directory = ~/.config/ncmpcpp
 

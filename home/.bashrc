@@ -7,14 +7,17 @@
 
 export PS1='\[\e[0;1;31m\][\[\e[0;1;38;5;37m\]\u\[\e[0;1;31m\]] \[\e[0;38;5;73m\]\W\[\e[0;1m\] ♠ \[\e[0m\]'
 
+shopt -s cdspell
+shopt -s direxpand
+set -o vi
 
 #########################
 #	  Alias		#
 #########################
 
 alias ls="exa"
-alias ll="exa -al"
-alias tree="tree -C"
+alias l="exa -al"
+alias tree="exa -T"
 
 alias dmpv="devour mpv"
 alias sxiv="devour sxiv"
@@ -23,7 +26,7 @@ alias pdf="devour zathura"
 alias c="clear"
 alias cal="cal -m -w"
 
-alias vim="nvim"
+alias vim="$EDITOR"
 
 alias shutdown="shutdown now"
 alias mangadownload="mangodl -D"
@@ -38,9 +41,8 @@ alias lightnovels="cd /media/sda1/lightnovels"
 alias tv-show="cd /media/sda1/tv-show"
 alias anime="cd /media/sda1/tv-show/anime"
 alias film="cd /media/sda1/film"
-alias code="cd /media/sda1/code"
 
-alias sda1="sudo mount /dev/sda1 /media/sda1"
+alias sdc1="sudo mount /dev/sdc1 /media/sdc1"
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -49,4 +51,3 @@ alias yt-audio="yt-dlp -x --audio-format mp3 --audio-quality 0"
 alias vconfig="nvim .config/nvim"
 
 ###################
-. "$HOME/.cargo/env"
